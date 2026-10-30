@@ -42,6 +42,19 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #0056b3; /* Lighter Blue on Hover */
 }       
+.container {
+    width: 85%;
+    margin: 20px auto;
+}
+.hero-flex {
+    display: flex; /* Requirement 5: display - flex on Home page */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6f2ff;
+    padding: 30px;
+    border-radius: 8px;
+    border-left: 6px solid #0056b3;
+}
 
 footer {
     background-color: #002d62;
